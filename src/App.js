@@ -1,11 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
-import Todo from "./Todo.js"
+// import Todo from "./Todo.js"
+import Photo from "./components/Photo.js"
+
 
 function App() {
   return (
     <div className="App">
-    <Todo />
+    {/* <Todo /> */}
+    <Photo />
     </div>
   );
 }
